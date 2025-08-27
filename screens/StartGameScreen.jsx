@@ -25,7 +25,7 @@ function StartGameScreen({ onPickNumber }) {
       return;
     }
 
-    onPickNumber(enteredNumber);
+    onPickNumber(parseInt(enteredNumber));
   }
 
   return (
